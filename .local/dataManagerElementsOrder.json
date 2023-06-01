@@ -3,106 +3,87 @@
     {
       "Path": null,
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
       "Path": "Main.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [
+        "SystemException&StateMachine_1",
+        "Config&StateMachine_1",
+        "read_Data&StateMachine_1",
+        "ItemDetailNumber&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "ItemDetail&StateMachine_1",
+        "ExceptionsCount&StateMachine_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
       "Path": "Framework/InitConfigures.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "KillAllProcesses.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Framework/KillAllProcesses.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [
+        "in_ConfigFile&Sequence_1",
+        "in_ConfigSheets&Sequence_1",
+        "dt_Configures&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
       "Path": "Framework/KillProcesses.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
       "Path": "Framework/GetData.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [
-        "out_ItemDetail",
-        "in_Config",
+        "in_ItemDetailNumber",
         "io_read_data",
-        "in_ItemDetailNumber"
+        "in_Config",
+        "out_ItemDetail"
       ],
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
       "Path": "Framework/Process.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [
-        "in_ItemDetail",
-        "in_Config"
+        "in_Config",
+        "in_ItemDetail"
       ],
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
     {
       "Path": "Framework/SetDataStatus.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
+      "VariablesSectionElementsOrder": [
+        "ScreenshotPath&Sequence_3"
+      ],
       "ArgumentsSectionElementsOrder": [
-        "in_ItemDetailNumber",
-        "in_ExceptionsCount",
-        "in_Config",
+        "in_BusinessException",
         "in_SystemException",
-        "in_BusinessException"
+        "in_Config",
+        "in_ExceptionsCount",
+        "in_ItemDetailNumber"
       ],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Framework/Screenshot.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
-      "ArgumentsSectionElementsOrder": [
-        "in_Folder",
-        "io_FilePath"
-      ],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Framework/CloseApplications.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": null,
-      "ArgumentsSectionElementsOrder": null,
-      "ConstantsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
   ]
